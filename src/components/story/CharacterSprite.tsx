@@ -23,7 +23,7 @@ interface Props {
   position: 'left' | 'right'
 }
 
-export default function CharacterSprite({ characterId, active, position }: Props) {
+export default function CharacterSprite({ characterId, active, position: _position }: Props) {
   const cfg = CHARACTER_CONFIG[characterId]
 
   return (
